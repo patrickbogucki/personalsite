@@ -1,0 +1,46 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 0.7em; }
+  @media (min-width: 760px) {
+    html {
+      font-size: 1em; } }
+
+body {
+  background-image: url("../../assets/images/wallpaper.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100vh; }
+  body p {
+    text-align: left; }
+  @media (min-width: 480px) {
+    body {
+      background-position: center; } }
+
+.content {
+  width: 70%;
+  background-color: rgba(46, 46, 46, 0.85);
+  text-align: center;
+  padding: 20px;
+  border: #FFFFFF solid 8px; }
+  @media (min-width: 760px) {
+    .content {
+      width: 520px; } }
+  @media (min-width: 1100px) {
+    .content {
+      width: 920px; } }
+
+h1 {
+  font-weight: 300; }
+
+.links p {
+  text-align: center; }
+
+.links a {
+  color: #FFFFFF;
+  text-decoration: none; }
